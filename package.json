@@ -1,0 +1,32 @@
+{
+  "name": "serverless-httpapi-cloudfront",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=12"
+  },
+  "description": "CloudFront distribution in front of your http api gateway",
+  "author": "t2tx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t2tx/serverless-httpapi-cloudfront"
+  },
+  "keywords": [
+    "serverless",
+    "serverless plugin",
+    "cloudfront",
+    "aws",
+    "aws api gateway v2",
+    "amazon web services",
+    "serverless.com"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "2.4.2",
+    "js-yaml": "3.13.1",
+    "lodash": "4.17.21"
+  },
+  "peerDependencies": {
+    "serverless": ">=3.12.0"
+  }
+}
